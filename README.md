@@ -4,8 +4,8 @@ A simple starter kit for Redux in React projects.
 
 ## Branches
 
-- `main`: simple starter kit
-- `auth`: starter kit with authentication
+-   `main`: simple starter kit
+-   `auth`: starter kit with authentication
 
 ## Steps
 
@@ -13,6 +13,15 @@ A simple starter kit for Redux in React projects.
 2. Set up provider and connect store in `index.js`
 3. Set up store in `redux/configStore.js`
 4. Set up duck (Ducks is a modular pattern that collocates actions, action types and reducers)
+
+## Store with Chrome devtools (Redux tab) support
+
+```js
+const store = createStore(
+	reducer,
+	window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
+```
 
 ## Notes
 
