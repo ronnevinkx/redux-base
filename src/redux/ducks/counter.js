@@ -3,13 +3,8 @@ const INCREMENT = 'increment';
 const DECREMENT = 'decrement';
 
 // action creators
-export const increment = () => ({
-	type: INCREMENT
-});
-
-export const decrement = () => ({
-	type: DECREMENT
-});
+export const increment = () => ({ type: INCREMENT });
+export const decrement = () => ({ type: DECREMENT });
 
 // initial state
 const initialState = {
