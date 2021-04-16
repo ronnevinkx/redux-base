@@ -17,3 +17,5 @@ A simple starter kit for Redux in React projects.
 ## Notes
 
 Based on [this](https://www.youtube.com/watch?v=wcXTCG8zMhY&list=PLQg6GaokU5CyvExiaMgXP_BS5WWNBfZJN&index=12) tutorial by Anthony Sistilli
+
+Always try to keep store as small as possible.
