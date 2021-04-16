@@ -4,8 +4,8 @@ A simple starter kit for Redux in React projects.
 
 ## Branches
 
-- Main: simple starter kit
-- Auth: starter kit with authentication
+- `main`: simple starter kit
+- `auth`: starter kit with authentication
 
 ## Steps
 
